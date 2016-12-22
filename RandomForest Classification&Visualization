@@ -1,0 +1,33 @@
+#Project No:1
+---------------------
+#Topic:Iris-Data-Set Analysis
+--------------------------------
+#problem:Predict the flower class based on available attributes.
+--------------------------------------------------------------------
+
+#Code
+--------
+#Load the dataset
+----------------------
+iris<-read.csv(file.choose(),header = T, stringsAsFactors = FALSE)
+View(iris)
+
+#load the Packages
+--------------------
+library("randomForest")
+
+#visualization
+-------------------------
+  hist(iris$petallength)
+boxplot(iris$petallength~ iris$class)
+
+#Algorithm:Random Forest classification
+--------------------------------------------
+x <- subset(iris, select=-class)
+x
+y<-class
+data.matrix(y)
+output.forest <- randomForest(as.factor(class) ~ sepallength + sepalwidth + petallength + petalwidth, data = iris)
+print(output.forest) 
+print(importance(output.forest,type = 2))
+q()
