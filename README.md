@@ -19,5 +19,7 @@ Data Desc:
 -- Iris Versicolour
 -- Iris Virginica
 
-
+Resources:
+http://rischanlab.github.io/SVM.html
+https://www.analyticsvidhya.com/
 
