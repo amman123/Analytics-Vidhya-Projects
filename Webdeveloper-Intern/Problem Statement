@@ -1,0 +1,12 @@
+The Problem Statement:
+You need to design a simple application, which has 2 levels of access:
+
+    Admin:
+        Admin should have access to add, edit, remove and define user rights for all users
+        Admin can write or update the database
+    Recruiter:
+        Recruiter should be able to provide filters based on any of the available fields (for example: Location, work experience, skills) through a simple form
+        Based on the filters provided pull out the profiles from the database which match the criteria provided by the filters.
+        Once the results are generated, the recruiter should be able to download the results in form of a csv.
+        Recruiter can only read the database through the filters
+        
