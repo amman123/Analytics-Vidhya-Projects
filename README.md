@@ -110,6 +110,43 @@ https://www.kaggle.com/c/titanic/data
 https://www.analyticsvidhya.com/blog/2016/10/17-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
 
 
+Topic:Loan Prediction-III
+
+Problem Desc:
+Company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others. To automate this process, they have given a problem to identify the customers segments, those are eligible for loan amount so that they can specifically target these customers. Here they have provided a partial data set.
+
+
+Problem:Predict if a loan will get approved or not.
+
+VariableDescription:
+
+Loan_ID-Unique Loan ID
+
+Gender-Male/ Female
+
+Married-Applicant married (Y/N)
+
+Dependents-Number of dependents
+
+Education-Applicant Education (Graduate/ Under Graduate)
+
+Self_Employed-Self employed (Y/N)
+
+ApplicantIncome-Applicant income
+
+CoapplicantIncome-Coapplicant income
+
+LoanAmount-Loan amount in thousands
+
+Loan_Amount_Term-Term of loan in months
+
+Credit_History-credit history meets guidelines
+
+Property_Area-Urban/ Semi Urban/ Rural
+
+Loan_Status-Loan approved (Y/N)
+
+
 
 
 
